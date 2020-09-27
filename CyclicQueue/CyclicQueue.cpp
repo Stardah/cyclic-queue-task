@@ -4,7 +4,6 @@
 
 CyclicQueue::CyclicQueue() {
     // todo
-    throw std::runtime_error("Not implemented!");
 }
 
 CyclicQueue::CyclicQueue(int capacity) {
@@ -19,12 +18,10 @@ CyclicQueue::~CyclicQueue() {
 
 CyclicQueue::CyclicQueue(const CyclicQueue& other) {
     // todo
-    throw std::runtime_error("Not implemented!");
 }
 
 CyclicQueue& CyclicQueue::operator=(const CyclicQueue& other) {
     // todo
-    throw std::runtime_error("Not implemented!");
 }
 
 void CyclicQueue::push(int item) {
